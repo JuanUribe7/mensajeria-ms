@@ -17,6 +17,6 @@ spring:
       matching-strategy: ANT_PATH_MATCHER
 
 twilio:
-  account-sid: ACe0db317b4ebe832f487de53000f116b8
-  auth-token: a61323a9a55d88b12a4c2f2fec571355
-  phone-number: "+12232153750"
+  account-sid:
+  auth-token:
+  phone-number:
