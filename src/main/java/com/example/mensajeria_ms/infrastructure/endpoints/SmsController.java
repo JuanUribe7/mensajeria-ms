@@ -21,4 +21,9 @@ public class SmsController {
         sendSmsPort.send(dto.getTo(), dto.getMessage());
         return ResponseEntity.ok().build();
     }
+
+    @PutMapping("/test")
+    public ResponseEntity<String> testPost() {
+        return ResponseEntity.ok("post ok");
+    }
 }
