@@ -3,9 +3,10 @@ package com.example.mensajeria_ms.domain.usecases;
 
 import com.example.mensajeria_ms.domain.ports.in.SendSmsPort;
 import com.example.mensajeria_ms.domain.ports.out.SmsSenderPort;
-import org.springframework.stereotype.Component;
 
-@Component
+
+
+
 public class SendSmsUseCase implements SendSmsPort {
 
     private final SmsSenderPort smsSenderPort;
